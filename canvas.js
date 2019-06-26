@@ -6,7 +6,8 @@ window.addEventListener("load", () => {
     canvas.height=window.innerHeight;
     canvas.width=window.innerWidth;
     
-    ctx.strokeRect(100,100,200,500);
-    ctx.lineWidth
-    ctx.strokeRect(200,200,200,500);
+    ctx.beginPath();
+    ctx.moveTo(100,100);
+    ctx.lineTo(200,150);
+    ctx.stroke();
 });
